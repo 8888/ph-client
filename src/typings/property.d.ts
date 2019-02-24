@@ -55,7 +55,7 @@ declare interface PropertyFacts {
 }
 
 declare type State =
-    "null" |
+    "Actionless" |
     "Showing: to be seen" |
     "Showing: requested" |
     "Seen" |

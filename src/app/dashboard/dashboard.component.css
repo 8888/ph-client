@@ -1,0 +1,20 @@
+.property-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.state {
+  align-self: center;
+  padding: 0 0.5rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5rem;
+}
+
+.facts {
+  padding: 0 0.5rem;
+}

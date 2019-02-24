@@ -1,0 +1,108 @@
+{
+  "a1": {
+    "id": "a1",
+    "address": {
+      "street": "123 Example Street",
+      "street2": "",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "facts": {
+      "bathrooms": 2,
+      "bedrooms": 4,
+      "floorSqft": 1600,
+      "lotSqft": 8000,
+      "type": "SFH",
+      "yearBuilt": 1988
+    },
+    "listing": {
+      "priceHistory": [
+        {
+          "date": "2/24/2019",
+          "event": "Listed for sale",
+          "price": 198800
+        }
+      ],
+      "taxHistory": [
+        {
+          "taxAssessment": 200000,
+          "taxes": 4000,
+          "year": 2019
+        }
+      ]
+    },
+    "notes": [
+      {
+        "author": "",
+        "body": "",
+        "date": "",
+        "fromState": "",
+        "state": ""
+      }
+    ],
+    "priceAdjustments": [
+      {
+        "amount": 0,
+        "author": "",
+        "date": "",
+        "body": "",
+        "title": ""
+      }
+    ],
+    "state": "Actionless"
+  },
+  "a2": {
+    "id": "a2",
+    "address": {
+      "street": "123 Example Street",
+      "street2": "",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "facts": {
+      "bathrooms": 2,
+      "bedrooms": 4,
+      "floorSqft": 1600,
+      "lotSqft": 8000,
+      "type": "SFH",
+      "yearBuilt": 1988
+    },
+    "listing": {
+      "priceHistory": [
+        {
+          "date": "2/24/2019",
+          "event": "Listed for sale",
+          "price": 198800
+        }
+      ],
+      "taxHistory": [
+        {
+          "taxAssessment": 200000,
+          "taxes": 4000,
+          "year": 2019
+        }
+      ]
+    },
+    "notes": [
+      {
+        "author": "",
+        "body": "",
+        "date": "",
+        "fromState": "",
+        "state": ""
+      }
+    ],
+    "priceAdjustments": [
+      {
+        "amount": 0,
+        "author": "",
+        "date": "",
+        "body": "",
+        "title": ""
+      }
+    ],
+    "state": "Actionless"
+  }
+}
