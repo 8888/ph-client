@@ -6,7 +6,7 @@ declare interface Address {
     zip: string;
 }
 
-declare type PriceHistoryEvent = 
+declare type PriceHistoryEvent =
     "Sold" |
     "Listed for sale" |
     "Listing removed" |
@@ -67,6 +67,7 @@ declare type State =
     "Rental unit";
 
 declare interface Property {
+    id: string;
     address: Address;
     facts: PropertyFacts;
     listing: Listing;
