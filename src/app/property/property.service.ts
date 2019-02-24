@@ -12,4 +12,8 @@ export class PropertyService {
   public fetch(): Observable<Property[]> {
     return this.dataService.properties$;
   }
+
+  public changeState(propertyId: string, stateId: number): void {
+    this.dataService.changeState(propertyId, stateId);
+  }
 }

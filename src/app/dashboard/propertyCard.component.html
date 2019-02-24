@@ -8,4 +8,7 @@
     <div>{{property.facts.bedrooms}} Bed / {{property.facts.bedrooms}} Bath - {{property.facts.floorSqft}}sqft</div>
     <div>Price: {{mostRecentPrice(property) | currency : 'USD' : 'symbol' : '1.0'}}</div>
   </div>
+  <div class="actions">
+    <button *ngFor="let action of availableActions" (click)="onClickAction(action.id)">{{action.name}}</button>
+  </div>
 </div>
