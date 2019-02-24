@@ -33,8 +33,8 @@ declare interface Note {
     author: string;
     body: string;
     date: string;
-    fromState?: State,
-    state: State;
+    fromState?: number,
+    state: number;
 }
 
 declare interface PriceAdjustment {
@@ -54,18 +54,6 @@ declare interface PropertyFacts {
     yeaBuilt: number;
 }
 
-declare type State =
-    "Actionless" |
-    "Showing: to be seen" |
-    "Showing: requested" |
-    "Seen" |
-    "Discontinue" |
-    "Investigate" |
-    "Contract: action needed" |
-    "Contract: awaiting response" |
-    "Sale complete" |
-    "Rental unit";
-
 declare interface Property {
     id: string;
     address: Address;
@@ -73,5 +61,5 @@ declare interface Property {
     listing: Listing;
     notes: Note[];
     priceAdjustments: PriceAdjustment;
-    state: State;
+    state: number;
 }

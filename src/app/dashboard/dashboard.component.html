@@ -1,6 +1,6 @@
 <div *ngFor="let property of properties">
   <div class="property-card">
-    <div class="state">{{property.state}}</div>
+    <div class="state">{{getStateName(property.state)}}</div>
     <div class="address">
       <div>{{property.address.street}} {{property.address.street2}}</div>
       <div>{{property.address.city}}, {{property.address.state}} {{property.address.zip}}</div>

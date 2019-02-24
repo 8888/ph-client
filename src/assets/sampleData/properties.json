@@ -37,8 +37,8 @@
         "author": "",
         "body": "",
         "date": "",
-        "fromState": "",
-        "state": ""
+        "fromState": 0,
+        "state": 0
       }
     ],
     "priceAdjustments": [
@@ -50,7 +50,7 @@
         "title": ""
       }
     ],
-    "state": "Actionless"
+    "state": 0
   },
   "a2": {
     "id": "a2",
@@ -90,8 +90,8 @@
         "author": "",
         "body": "",
         "date": "",
-        "fromState": "",
-        "state": ""
+        "fromState": 0,
+        "state": 0
       }
     ],
     "priceAdjustments": [
@@ -103,6 +103,6 @@
         "title": ""
       }
     ],
-    "state": "Actionless"
+    "state": 0
   }
 }
